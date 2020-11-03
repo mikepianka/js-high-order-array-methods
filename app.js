@@ -26,6 +26,9 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 //   console.log(company.name);
 // });
 
+// // one liner
+// companies.forEach(company => console.log(company.name));
+
 // ============================================================================
 
 // filtering
@@ -147,12 +150,12 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
 // ===================================================================================
 
-// Combine Methods
+// // Combine Methods
 
-const combined = ages
-  .map(age => age * 2)
-  .filter(age => age >= 40)
-  .sort((a, b) => a - b)
-  .reduce((total, age) => total + age, 0);
+// const combined = ages
+//   .map(age => age * 2)
+//   .filter(age => age >= 40)
+//   .sort((a, b) => a - b)
+//   .reduce((total, age) => total + age, 0);
 
-console.log(combined);
+// console.log(combined);
